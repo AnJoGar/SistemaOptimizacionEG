@@ -1,0 +1,101 @@
+user_id,age,gender,location,interaction_frequency,preferred_service,activity_level,feedback_provided
+1,56,Male,Rural,25,IESS,High,1
+2,46,Female,Urban,25,ANT,Medium,1
+3,32,Female,Urban,18,Registro Civil,Medium,0
+4,25,Female,Urban,23,Registro Civil,Medium,0
+5,38,Male,Rural,10,IESS,Low,1
+6,56,Female,Rural,3,IESS,Low,1
+7,36,Male,Rural,7,Municipalidad,Low,0
+8,40,Male,Urban,28,Municipalidad,Low,0
+9,28,Female,Urban,16,ANT,Low,0
+10,28,Female,Rural,26,IESS,High,1
+11,41,Male,Rural,16,Registro Civil,High,1
+12,53,Male,Rural,25,Municipalidad,Low,1
+13,57,Female,Rural,20,Municipalidad,Medium,0
+14,41,Female,Urban,28,Registro Civil,Low,0
+15,20,Female,Rural,17,Municipalidad,High,1
+16,39,Male,Urban,2,ANT,High,1
+17,19,Male,Rural,1,IESS,Medium,0
+18,41,Male,Urban,16,Registro Civil,High,1
+19,47,Male,Rural,12,IESS,Low,1
+20,55,Male,Rural,5,Municipalidad,Medium,0
+21,19,Male,Rural,5,Municipalidad,Low,1
+22,38,Female,Rural,27,Registro Civil,Low,0
+23,50,Male,Urban,23,ANT,Medium,0
+24,29,Male,Rural,9,SRI,Low,0
+25,39,Male,Urban,9,Registro Civil,High,0
+26,42,Female,Urban,3,SRI,Low,0
+27,44,Male,Urban,19,SRI,Medium,0
+28,59,Male,Urban,16,ANT,Medium,0
+29,45,Female,Rural,16,SRI,Medium,1
+30,33,Male,Urban,3,SRI,Low,0
+31,32,Male,Urban,20,ANT,Medium,0
+32,20,Male,Urban,24,SRI,Medium,1
+33,54,Male,Rural,22,SRI,Low,1
+34,24,Male,Rural,24,SRI,High,1
+35,38,Female,Rural,1,Registro Civil,Low,0
+36,26,Female,Rural,24,Registro Civil,Medium,1
+37,56,Female,Urban,20,Registro Civil,Medium,0
+38,35,Male,Urban,11,ANT,Low,0
+39,21,Male,Rural,17,Municipalidad,High,0
+40,42,Male,Urban,8,SRI,Medium,0
+41,31,Female,Urban,4,SRI,Medium,1
+42,26,Male,Urban,6,ANT,Medium,1
+43,43,Male,Rural,8,SRI,Low,0
+44,19,Female,Rural,20,Registro Civil,Medium,0
+45,37,Male,Urban,3,Municipalidad,High,0
+46,45,Female,Rural,16,IESS,Medium,1
+47,24,Female,Rural,25,SRI,Medium,0
+48,25,Female,Rural,3,Registro Civil,High,0
+49,52,Male,Rural,25,IESS,Medium,1
+50,31,Male,Rural,29,Municipalidad,Low,1
+51,34,Male,Urban,18,IESS,Low,0
+52,53,Male,Rural,14,Registro Civil,Low,1
+53,57,Male,Urban,18,IESS,High,1
+54,21,Male,Urban,2,ANT,Medium,0
+55,19,Male,Rural,22,IESS,Low,1
+56,23,Female,Urban,3,SRI,High,0
+57,59,Male,Urban,16,SRI,Medium,1
+58,21,Female,Urban,29,ANT,High,0
+59,46,Male,Rural,9,Registro Civil,Low,0
+60,35,Male,Rural,4,SRI,Low,0
+61,43,Male,Urban,1,Municipalidad,Low,1
+62,51,Female,Rural,4,SRI,High,0
+63,27,Female,Rural,1,SRI,High,1
+64,53,Female,Rural,14,Registro Civil,Low,0
+65,31,Female,Rural,21,IESS,High,0
+66,48,Male,Urban,16,SRI,Low,1
+67,32,Female,Urban,20,ANT,Low,0
+68,25,Male,Rural,24,IESS,Medium,0
+69,31,Male,Rural,8,Municipalidad,High,1
+70,40,Female,Urban,7,Registro Civil,Low,0
+71,57,Female,Urban,3,Municipalidad,Low,0
+72,38,Female,Rural,17,IESS,High,0
+73,33,Female,Urban,1,IESS,Medium,0
+74,35,Female,Rural,16,IESS,Medium,1
+75,41,Female,Rural,12,Municipalidad,Low,1
+76,43,Female,Urban,27,IESS,High,0
+77,42,Female,Urban,19,Municipalidad,Medium,1
+78,58,Male,Rural,22,IESS,High,0
+79,46,Female,Rural,23,ANT,High,1
+80,32,Female,Urban,22,IESS,Low,0
+81,18,Male,Rural,14,Municipalidad,Medium,0
+82,42,Female,Urban,6,SRI,Low,0
+83,24,Male,Rural,6,IESS,Medium,0
+84,26,Male,Urban,13,SRI,Medium,0
+85,41,Female,Urban,19,ANT,Medium,0
+86,18,Male,Urban,22,Registro Civil,Medium,1
+87,25,Male,Rural,8,ANT,Medium,0
+88,41,Male,Rural,27,IESS,High,1
+89,28,Male,Urban,27,SRI,Low,0
+90,34,Female,Rural,2,SRI,High,1
+91,25,Male,Urban,21,Municipalidad,Medium,1
+92,52,Female,Urban,1,SRI,Low,1
+93,52,Male,Rural,28,Municipalidad,Medium,0
+94,50,Male,Rural,15,Registro Civil,Low,0
+95,22,Male,Urban,1,IESS,High,1
+96,59,Male,Rural,5,Municipalidad,Low,0
+97,56,Female,Rural,28,Registro Civil,Low,1
+98,58,Female,Urban,29,SRI,Low,0
+99,45,Male,Urban,16,SRI,Low,1
+100,24,Male,Rural,19,Registro Civil,Low,1
