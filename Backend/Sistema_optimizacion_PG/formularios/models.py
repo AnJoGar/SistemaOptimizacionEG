@@ -2,6 +2,23 @@ from django.db import models
 
 # Create your models here.
 from django.db import models
+class Tramite(models.Model):
+    tipo_tramite = models.CharField(max_length=100)
+    nombre = models.CharField(max_length=100)
+    fecha_nacimiento = models.DateField()
+    pais_origen = models.CharField(max_length=100, blank=True, null=True)
+    motivo_viaje = models.CharField(max_length=255, blank=True, null=True)
+    tipo_visa = models.CharField(max_length=100, blank=True, null=True)
+    numero_pasaporte = models.CharField(max_length=50, blank=True, null=True)
+    telefono_contacto = models.CharField(max_length=50, blank=True, null=True)
+    email_contacto = models.EmailField(blank=True, null=True)
+    direccion_contacto = models.CharField(max_length=255, blank=True, null=True)
+    lugar_nacimiento = models.CharField(max_length=100, blank=True, null=True)
+
+    def __str__(self):
+        return self.nombre
+
+
 
 class SolicitudVisa(models.Model):
     nombre = models.CharField(max_length=100)

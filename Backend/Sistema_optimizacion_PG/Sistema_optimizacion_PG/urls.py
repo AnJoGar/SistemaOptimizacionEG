@@ -17,12 +17,17 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from Modulo2.views import ChatbotAPI
-from formularios.views import SolicitudVisaAPIView, SolicitudPasaporteAPIView, SolicitudCedulaAPIView
+from formularios.views import SolicitudVisaAPIView, SolicitudPasaporteAPIView, SolicitudCedulaAPIView,TramiteAPIView
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('ChatbotAPI/', ChatbotAPI.as_view(), name='ChatbotAPI'),
     path('solicitar-visa/', SolicitudVisaAPIView.as_view(), name='solicitar_visa_api'),
     path('solicitar-visa/<int:id>/', SolicitudVisaAPIView.as_view(), name='solicitar_visa_api_detail'),
     path('solicitar-pasaporte/', SolicitudPasaporteAPIView.as_view(), name='solicitar_pasaporte_api'),
+     path('solicitar-pasaporte/<int:id>/', SolicitudPasaporteAPIView.as_view(), name='solicitar_pasaporte_api_detail'),
     path('solicitar-cedula/', SolicitudCedulaAPIView.as_view(), name='solicitar_cedula_api'),
+    path('solicitar-cedula/<int:id>/', SolicitudCedulaAPIView.as_view(), name='solicitar_cedula_api_detail'),
+    path('tramite/<int:id>/', TramiteAPIView.as_view(), name='solicitar_tramite_id'),
+    path('tramite/', TramiteAPIView.as_view(), name='solicitar_tramite'),
+
 ]

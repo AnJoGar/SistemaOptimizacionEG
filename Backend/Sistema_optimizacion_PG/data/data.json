@@ -161,16 +161,16 @@
         "¿Cuál es el primer paso para tramitar mi visa?"
       ],
       "responses": [
-        "Perfecto, para iniciar el trámite de visa, por favor completa el formulario en el siguiente enlace: [Formulario de Solicitud de Visa](https://link-a-formulario.com). Asegúrate de tener todos los documentos requeridos antes de empezar.",
-        "Para comenzar con el trámite de visa, por favor completa el formulario en el siguiente enlace: [Formulario de Solicitud de Visa](https://link-a-formulario.com). Recuerda que necesitarás tu pasaporte vigente y algunos documentos adicionales según el tipo de visa.",
-        "Para proceder con el trámite de visa, completa el formulario aquí: [Formulario de Solicitud de Visa](https://link-a-formulario.com). Asegúrate de tener una foto reciente, tu pasaporte vigente y otros documentos de respaldo listos para adjuntar.",
-        "¡Listo para iniciar tu trámite de visa! Completa el formulario en el siguiente enlace: [Formulario de Solicitud de Visa](https://link-a-formulario.com) y ten a mano los documentos que se requieren, como el pasaporte, la foto reciente, y el comprobante de domicilio.",
-        "Para empezar el trámite de visa, ingresa al siguiente enlace: [Formulario de Solicitud de Visa](https://link-a-formulario.com) y llena el formulario con la información requerida. No olvides tener a mano tu pasaporte y los documentos adicionales según el tipo de visa que estés solicitando.",
-        "Inicia el trámite de visa completando este formulario: [Formulario de Solicitud de Visa](https://link-a-formulario.com). Una vez que envíes el formulario, recibirás instrucciones adicionales sobre los siguientes pasos, como la tarifa a pagar y cualquier documento adicional que puedas necesitar.",
-        "Para comenzar con el proceso de solicitud de visa, por favor llena el formulario en este enlace: [Formulario de Solicitud de Visa](https://link-a-formulario.com). Asegúrate de verificar los requisitos específicos para tu tipo de visa y tener todos los documentos listos antes de enviarlo.",
-        "Te proporcionamos el enlace al formulario para que puedas empezar con tu solicitud de visa: [Formulario de Solicitud de Visa](https://link-a-formulario.com). Recuerda que es importante tener tu pasaporte vigente y otros documentos necesarios listos antes de completar el formulario.",
-        "Para iniciar el trámite de visa, haz clic en el siguiente enlace y completa el formulario: [Formulario de Solicitud de Visa](https://link-a-formulario.com). Después de completarlo, podrás seguir las instrucciones adicionales que te enviarán para pagar la tarifa y enviar los documentos necesarios.",
-        "Inicia tu solicitud de visa llenando el formulario en este enlace: [Formulario de Solicitud de Visa](https://link-a-formulario.com). Asegúrate de incluir toda la información requerida y los documentos adicionales que puedan ser necesarios, según el tipo de visa que solicites."
+        "Perfecto, para iniciar el trámite de visa, por favor completa el formulario en el siguiente enlace: [Formulario de Solicitud de Visa](http://localhost:4200/registra-consulta). Asegúrate de tener todos los documentos requeridos antes de empezar.",
+        "Para comenzar con el trámite de visa, por favor completa el formulario en el siguiente enlace: [Formulario de Solicitud de Visa](http://localhost:4200/registra-consulta). Recuerda que necesitarás tu pasaporte vigente y algunos documentos adicionales según el tipo de visa.",
+        "Para proceder con el trámite de visa, completa el formulario aquí: [Formulario de Solicitud de Visa](http://localhost:4200/registra-consulta). Asegúrate de tener una foto reciente, tu pasaporte vigente y otros documentos de respaldo listos para adjuntar.",
+        "¡Listo para iniciar tu trámite de visa! Completa el formulario en el siguiente enlace: [Formulario de Solicitud de Visa](http://localhost:4200/registra-consulta) y ten a mano los documentos que se requieren, como el pasaporte, la foto reciente, y el comprobante de domicilio.",
+        "Para empezar el trámite de visa, ingresa al siguiente enlace: [Formulario de Solicitud de Visa](http://localhost:4200/registra-consulta) y llena el formulario con la información requerida. No olvides tener a mano tu pasaporte y los documentos adicionales según el tipo de visa que estés solicitando.",
+        "Inicia el trámite de visa completando este formulario: [Formulario de Solicitud de Visa](http://localhost:4200/registra-consulta). Una vez que envíes el formulario, recibirás instrucciones adicionales sobre los siguientes pasos, como la tarifa a pagar y cualquier documento adicional que puedas necesitar.",
+        "Para comenzar con el proceso de solicitud de visa, por favor llena el formulario en este enlace: [Formulario de Solicitud de Visa](http://localhost:4200/registra-consulta). Asegúrate de verificar los requisitos específicos para tu tipo de visa y tener todos los documentos listos antes de enviarlo.",
+        "Te proporcionamos el enlace al formulario para que puedas empezar con tu solicitud de visa: [Formulario de Solicitud de Visa](http://localhost:4200/registra-consulta). Recuerda que es importante tener tu pasaporte vigente y otros documentos necesarios listos antes de completar el formulario.",
+        "Para iniciar el trámite de visa, haz clic en el siguiente enlace y completa el formulario: [Formulario de Solicitud de Visa](http://localhost:4200/registra-consulta). Después de completarlo, podrás seguir las instrucciones adicionales que te enviarán para pagar la tarifa y enviar los documentos necesarios.",
+        "Inicia tu solicitud de visa llenando el formulario en este enlace: [Formulario de Solicitud de Visa](http://localhost:4200/registra-consulta). Asegúrate de incluir toda la información requerida y los documentos adicionales que puedan ser necesarios, según el tipo de visa que solicites."
       ]
     }
     ,
@@ -235,15 +235,15 @@
     "Me gustaría realizar el trámite para obtener mi cédula de identidad."
   ],
   "responses": [
-    "Perfecto, para iniciar el trámite de cédula de identidad, por favor completa el formulario en el siguiente enlace: [Formulario de Solicitud de Cédula](https://link-a-formulario.com).",
-    "Aquí está el enlace al formulario para que puedas iniciar el trámite de cédula de identidad: [Formulario de Solicitud de Cédula](https://link-a-formulario.com).",
-    "Para proceder con el trámite de cédula de identidad, completa el formulario aquí: [Formulario de Solicitud de Cédula](https://link-a-formulario.com).",
-    "Haz clic en este enlace para acceder al formulario y comenzar con tu trámite de cédula de identidad: [Formulario de Solicitud de Cédula](https://link-a-formulario.com).",
-    "Para continuar con el trámite de la cédula de identidad, por favor llena el formulario disponible en este enlace: [Formulario de Solicitud de Cédula](https://link-a-formulario.com).",
-    "Para iniciar con el trámite de tu cédula, solo necesitas completar el formulario aquí: [Formulario de Solicitud de Cédula](https://link-a-formulario.com).",
-    "Inicia tu trámite de cédula de identidad completando el formulario en este enlace: [Formulario de Solicitud de Cédula](https://link-a-formulario.com).",
-    "Haz clic en el siguiente enlace para llenar el formulario y dar inicio a tu trámite de cédula: [Formulario de Solicitud de Cédula](https://link-a-formulario.com).",
-    "Por favor, completa el formulario aquí para comenzar con el proceso de obtención de tu cédula de identidad: [Formulario de Solicitud de Cédula](https://link-a-formulario.com)."
+    "Perfecto, para iniciar el trámite de cédula de identidad, por favor completa el formulario en el siguiente enlace: [Formulario de Solicitud de Cédula](http://localhost:4200/registra-consulta).",
+    "Aquí está el enlace al formulario para que puedas iniciar el trámite de cédula de identidad: [Formulario de Solicitud de Cédula](http://localhost:4200/registra-consulta).",
+    "Para proceder con el trámite de cédula de identidad, completa el formulario aquí: [Formulario de Solicitud de Cédula](http://localhost:4200/registra-consulta).",
+    "Haz clic en este enlace para acceder al formulario y comenzar con tu trámite de cédula de identidad: [Formulario de Solicitud de Cédula](http://localhost:4200/registra-consulta).",
+    "Para continuar con el trámite de la cédula de identidad, por favor llena el formulario disponible en este enlace: [Formulario de Solicitud de Cédula](http://localhost:4200/registra-consulta).",
+    "Para iniciar con el trámite de tu cédula, solo necesitas completar el formulario aquí: [Formulario de Solicitud de Cédula](http://localhost:4200/registra-consulta).",
+    "Inicia tu trámite de cédula de identidad completando el formulario en este enlace: [Formulario de Solicitud de Cédula](http://localhost:4200/registra-consulta).",
+    "Haz clic en el siguiente enlace para llenar el formulario y dar inicio a tu trámite de cédula: [Formulario de Solicitud de Cédula](http://localhost:4200/registra-consulta).",
+    "Por favor, completa el formulario aquí para comenzar con el proceso de obtención de tu cédula de identidad: [Formulario de Solicitud de Cédula](http://localhost:4200/registra-consulta)."
   ]
 }
 ,
@@ -290,16 +290,16 @@
     "¿Cómo empiezo el trámite para obtener la licencia de conducir?"
   ],
   "responses": [
-    "Perfecto, para iniciar el trámite de licencia de conducir, por favor completa el formulario en el siguiente enlace: [Formulario de Solicitud de Licencia de Conducir](https://link-a-formulario.com).",
-    "Aquí está el enlace al formulario para que puedas iniciar el trámite de licencia de conducir: [Formulario de Solicitud de Licencia de Conducir](https://link-a-formulario.com).",
-    "Para proceder con el trámite de licencia de conducir, completa el formulario aquí: [Formulario de Solicitud de Licencia de Conducir](https://link-a-formulario.com).",
-    "Haz clic en este enlace para iniciar el trámite de licencia de conducir: [Formulario de Solicitud de Licencia de Conducir](https://link-a-formulario.com).",
-    "Para comenzar con el trámite de licencia de conducir, solo necesitas llenar este formulario: [Formulario de Solicitud de Licencia de Conducir](https://link-a-formulario.com).",
-    "Aquí tienes el enlace para completar el formulario y dar inicio al trámite de licencia de conducir: [Formulario de Solicitud de Licencia de Conducir](https://link-a-formulario.com).",
-    "Inicia el trámite de tu licencia de conducir haciendo clic en el siguiente enlace y completando el formulario: [Formulario de Solicitud de Licencia de Conducir](https://link-a-formulario.com).",
-    "Puedes comenzar el trámite de la licencia de conducir aquí: [Formulario de Solicitud de Licencia de Conducir](https://link-a-formulario.com).",
-    "Para comenzar con el proceso de obtención de la licencia de conducir, completa el formulario en este enlace: [Formulario de Solicitud de Licencia de Conducir](https://link-a-formulario.com).",
-    "Por favor, completa el formulario de solicitud de licencia de conducir en este enlace: [Formulario de Solicitud de Licencia de Conducir](https://link-a-formulario.com)."
+    "Perfecto, para iniciar el trámite de licencia de conducir, por favor completa el formulario en el siguiente enlace: [Formulario de Solicitud de Licencia de Conducir](http://localhost:4200/registra-consulta).",
+    "Aquí está el enlace al formulario para que puedas iniciar el trámite de licencia de conducir: [Formulario de Solicitud de Licencia de Conducir](http://localhost:4200/registra-consulta).",
+    "Para proceder con el trámite de licencia de conducir, completa el formulario aquí: [Formulario de Solicitud de Licencia de Conducir](http://localhost:4200/registra-consulta).",
+    "Haz clic en este enlace para iniciar el trámite de licencia de conducir: [Formulario de Solicitud de Licencia de Conducir](http://localhost:4200/registra-consulta).",
+    "Para comenzar con el trámite de licencia de conducir, solo necesitas llenar este formulario: [Formulario de Solicitud de Licencia de Conducir](http://localhost:4200/registra-consulta).",
+    "Aquí tienes el enlace para completar el formulario y dar inicio al trámite de licencia de conducir: [Formulario de Solicitud de Licencia de Conducir](http://localhost:4200/registra-consulta).",
+    "Inicia el trámite de tu licencia de conducir haciendo clic en el siguiente enlace y completando el formulario: [Formulario de Solicitud de Licencia de Conducir](http://localhost:4200/registra-consulta).",
+    "Puedes comenzar el trámite de la licencia de conducir aquí: [Formulario de Solicitud de Licencia de Conducir](http://localhost:4200/registra-consulta).",
+    "Para comenzar con el proceso de obtención de la licencia de conducir, completa el formulario en este enlace: [Formulario de Solicitud de Licencia de Conducir](http://localhost:4200/registra-consulta).",
+    "Por favor, completa el formulario de solicitud de licencia de conducir en este enlace: [Formulario de Solicitud de Licencia de Conducir](http://localhost:4200/registra-consulta)."
   ]
 }
 ,
@@ -349,13 +349,13 @@
     "Quiero comenzar con mi trámite de registro en el SRI."
   ],
   "responses": [
-    "Para registrar tu RUC, por favor completa el formulario en el siguiente enlace: [Formulario de Registro en el SRI](https://link-a-formulario-sri.com).",
-    "Aquí está el enlace al formulario para registrar tu RUC: [Formulario de Registro en el SRI](https://link-a-formulario-sri.com).",
-    "Para proceder con el trámite de registro de RUC, completa el formulario aquí: [Formulario de Registro en el SRI](https://link-a-formulario-sri.com).",
-    "Para realizar el trámite de declaración de impuestos, completa el formulario de declaración disponible aquí: [Formulario de Declaración de Impuestos SRI](https://link-a-formulario-sri.com).",
-    "Para comenzar con el trámite de RUC, ingresa al siguiente formulario: [Formulario de Registro en el SRI](https://link-a-formulario-sri.com).",
-    "Si deseas comenzar con el trámite de declaración de impuestos, por favor dirígete al siguiente formulario: [Formulario de Declaración SRI](https://link-a-formulario-sri.com).",
-    "Para iniciar tu trámite de registro en el SRI, completa la información requerida en el siguiente enlace: [Formulario de Registro en el SRI](https://link-a-formulario-sri.com)."
+    "Para registrar tu RUC, por favor completa el formulario en el siguiente enlace: [Formulario de Registro en el SRI](http://localhost:4200/registra-consulta).",
+    "Aquí está el enlace al formulario para registrar tu RUC: [Formulario de Registro en el SRI](http://localhost:4200/registra-consulta).",
+    "Para proceder con el trámite de registro de RUC, completa el formulario aquí: [Formulario de Registro en el SRI](http://localhost:4200/registra-consulta).",
+    "Para realizar el trámite de declaración de impuestos, completa el formulario de declaración disponible aquí: [Formulario de Declaración de Impuestos SRI](http://localhost:4200/registra-consulta).",
+    "Para comenzar con el trámite de RUC, ingresa al siguiente formulario: [Formulario de Registro en el SRI](http://localhost:4200/registra-consulta).",
+    "Si deseas comenzar con el trámite de declaración de impuestos, por favor dirígete al siguiente formulario: [Formulario de Declaración SRI](http://localhost:4200/registra-consulta).",
+    "Para iniciar tu trámite de registro en el SRI, completa la información requerida en el siguiente enlace: [Formulario de Registro en el SRI](http://localhost:4200/registra-consulta)."
   ]
 }
 

@@ -6,7 +6,7 @@ from django.shortcuts import render
 
 
 from rest_framework import serializers
-from .models import SolicitudVisa, SolicitudPasaporte, SolicitudCedula
+from .models import SolicitudVisa, SolicitudPasaporte, SolicitudCedula, Tramite
 
 class SolicitudVisaSerializer(serializers.ModelSerializer):
     class Meta:
@@ -22,6 +22,12 @@ class SolicitudCedulaSerializer(serializers.ModelSerializer):
     class Meta:
         model = SolicitudCedula
         fields = '__all__'
+
+class TramiteSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Tramite
+        fields = '__all__'
+
 
 # views.py
 from rest_framework.views import APIView
@@ -171,3 +177,55 @@ class SolicitudCedulaAPIView(APIView):
 
         solicitud.delete()
         return Response({'detail': 'Solicitud eliminada exitosamente.'}, status=status.HTTP_204_NO_CONTENT)
+
+
+class TramiteAPIView(APIView):
+    # Crear un nuevo trámite
+    def post(self, request):
+        serializer = TramiteSerializer(data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    # Obtener trámite(s), si se pasa un 'id' se obtiene uno específico, de lo contrario todos
+    def get(self, request, *args, **kwargs):
+        # Si se pasa un 'id' en la URL, se busca ese trámite específico
+        id = kwargs.get('id')
+        if id:
+            try:
+                tramite = Tramite.objects.get(id=id)
+                serializer = TramiteSerializer(tramite)
+                return Response(serializer.data, status=status.HTTP_200_OK)
+            except Tramite.DoesNotExist:
+                return Response({'detail': 'Trámite no encontrado.'}, status=status.HTTP_404_NOT_FOUND)
+        else:
+            # Si no se pasa 'id', se devuelven todos los trámites
+            tramites = Tramite.objects.all()
+            serializer = TramiteSerializer(tramites, many=True)
+            return Response(serializer.data, status=status.HTTP_200_OK)
+
+    # Actualizar un trámite existente
+    def put(self, request, *args, **kwargs):
+        id = request.data.get('id')
+        try:
+            tramite = Tramite.objects.get(id=id)
+        except Tramite.DoesNotExist:
+            return Response({'detail': 'Trámite no encontrado.'}, status=status.HTTP_404_NOT_FOUND)
+
+        serializer = TramiteSerializer(tramite, data=request.data, partial=True)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    # Eliminar un trámite
+    def delete(self, request, *args, **kwargs):
+        id = kwargs.get('id')
+        try:
+            tramite = Tramite.objects.get(id=id)
+        except Tramite.DoesNotExist:
+            return Response({'detail': 'Trámite no encontrado.'}, status=status.HTTP_404_NOT_FOUND)
+        
+        tramite.delete()
+        return Response({'detail': 'Trámite eliminado exitosamente.'}, status=status.HTTP_204_NO_CONTENT)
