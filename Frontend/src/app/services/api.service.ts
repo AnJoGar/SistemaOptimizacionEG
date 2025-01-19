@@ -6,12 +6,12 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiService {
-  private apiUrl = 'http://localhost:5000/api';
+  private apiUrl = 'http://localhost:8000';
 
   constructor(private http: HttpClient) {}
 
   sendChatMessage(message: string): Observable<any> {
-    return this.http.post(`${this.apiUrl}/chatbot`, { message });
+    return this.http.post(`${this.apiUrl}/ChatbotAPI/`, { message });
   }
 
   submitTramite(data: any): Observable<any> {

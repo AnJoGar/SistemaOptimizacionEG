@@ -23,11 +23,16 @@ export class ChatbotComponent {
   }
 
   getBotResponse(userMessage: string) {
-    this.http.post<{ message: string }>('http://localhost:8000/api/chatbot', { message: userMessage })
-      .subscribe(response => {
-        this.messages.push({ sender: 'bot', text: response.message });  // Agregar la respuesta del bot a la conversación
-      }, error => {
-        this.messages.push({ sender: 'bot', text: 'Lo siento, hubo un error. Intenta nuevamente.' });
-      });
+    this.http.post<{ response: string }>('http://127.0.0.1:8000/ChatbotAPI/', { mensaje: userMessage })
+      .subscribe(
+        response => {
+          console.log('Respuesta del backend:', response); // Verifica la respuesta en la consola
+          this.messages.push({ sender: 'bot', text: response.response }); // Agregar la respuesta del bot
+        },
+        error => {
+          console.error('Error al obtener la respuesta del backend:', error); // Mostrar errores en la consola
+          this.messages.push({ sender: 'bot', text: 'Lo siento, hubo un error. Intenta nuevamente.' });
+        }
+      );
   }
 }

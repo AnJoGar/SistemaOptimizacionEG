@@ -22,6 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('ChatbotAPI/', ChatbotAPI.as_view(), name='ChatbotAPI'),
     path('solicitar-visa/', SolicitudVisaAPIView.as_view(), name='solicitar_visa_api'),
+    path('solicitar-visa/<int:id>/', SolicitudVisaAPIView.as_view(), name='solicitar_visa_api_detail'),
     path('solicitar-pasaporte/', SolicitudPasaporteAPIView.as_view(), name='solicitar_pasaporte_api'),
     path('solicitar-cedula/', SolicitudCedulaAPIView.as_view(), name='solicitar_cedula_api'),
 ]
