@@ -1,47 +1,39 @@
 [
-    
-   {
-"intent": "bienvenida",
-  "examples": [
-    "Hola",
-    "Buenos días",
-    "Buenas tardes",
-    "Buenas noches",
-    "¿Cómo estás?",
-    "Hola, ¿qué tal?",
-    "Hola, ¿cómo estás?"
-  ],
-  "responses": [
-    "¡Hola! ¿Cómo puedo ayudarte hoy?",
-    "¡Buenos días! ¿En qué puedo asistirte?",
-    "¡Hola! ¿Cómo estás? ¿En qué puedo ayudarte?",
-    "¡Hola! Estoy aquí para ayudarte con tus dudas, ¿cómo te puedo asistir?"
-  ]
-
-
-   }, 
-    
     {
-
-
-
-        
+      "intent": "bienvenida",
+      "examples": [
+        "Hola",
+        "Buenos días",
+        "Buenas tardes",
+        "Buenas noches",
+        "¿Cómo estás?",
+        "Hola, ¿qué tal?",
+        "Hola, ¿cómo estás?"
+      ],
+      "responses": [
+        "¡Hola! ¿Cómo puedo ayudarte hoy?",
+        "¡Buenos días! ¿En qué puedo asistirte?",
+        "¡Hola! ¿Cómo estás? ¿En qué puedo ayudarte?",
+        "¡Hola! Estoy aquí para ayudarte con tus dudas, ¿cómo te puedo asistir?"
+      ]
+    },
+    {
       "intent": "requisitos_pasaporte",
       "examples": [
         "¿Cuáles son los requisitos para el pasaporte?",
         "¿Qué documentos necesito para obtener un pasaporte?",
         "¿Qué papeles necesito para hacer un pasaporte?",
         "¿Cómo puedo sacar el pasaporte?",
-         "¿Cómo puedo sacar un pasaporte?",
+        "¿Cómo puedo sacar un pasaporte?",
         "¿Qué requisitos debo cumplir para el pasaporte?",
         "¿Dónde puedo tramitar el pasaporte?",
         "¿Qué edad debo tener para pedir un pasaporte?"
       ],
       "responses": [
-        "Para obtener un pasaporte, necesitas: 1. Documento de identidad, 2. Comprobante de pago, 3. Foto reciente.",
-        "Los requisitos para el pasaporte incluyen una identificación válida y un recibo de pago por el trámite.",
-        "Necesitas presentar tu cédula de identidad, una fotografía reciente y pagar la tarifa del trámite.",
-        "Para tramitar el pasaporte debes ser mayor de 18 años o tener un adulto responsable si eres menor."
+        "Para obtener un pasaporte, necesitas: 1. Cédula de ciudadanía, 2. Comprobante de pago, 3. Foto reciente tamaño carnet, 4. Si eres menor de 18 años, se requiere autorización de ambos padres o del tutor.",
+        "Los requisitos para el pasaporte incluyen: 1. Cédula de ciudadanía, 2. Comprobante de pago, 3. Foto reciente.",
+        "Para tramitar el pasaporte debes tener tu cédula de ciudadanía vigente y pagar la tarifa correspondiente.",
+        "Si eres menor de edad, también necesitas la autorización de los padres o tutor para realizar el trámite."
       ]
     },
     {
@@ -69,10 +61,10 @@
         "¿Cuál es el procedimiento para solicitar la visa?"
       ],
       "responses": [
-        "Para obtener la visa, necesitas presentar tu pasaporte válido, comprobante de domicilio, entre otros documentos.",
-        "Los requisitos para la visa incluyen: 1. Pasaporte válido, 2. Comprobante de domicilio, 3. Foto reciente, 4. Formulario de solicitud.",
-        "Para tramitar la visa, deberás presentar documentos como tu pasaporte, comprobante de residencia y una fotografía reciente.",
-        "Los requisitos son similares a los del pasaporte, pero además necesitas completar un formulario de solicitud."
+        "Para obtener una visa, necesitas presentar: 1. Pasaporte vigente, 2. Comprobante de domicilio, 3. Foto reciente, 4. Formulario de solicitud completado, 5. Pago de tarifa correspondiente.",
+        "Los requisitos para la visa incluyen: 1. Pasaporte vigente, 2. Comprobante de domicilio, 3. Foto reciente, 4. Formulario de solicitud.",
+        "Para tramitar la visa, debes presentar tu pasaporte, comprobante de domicilio y una fotografía reciente.",
+        "Además, necesitarás completar un formulario de solicitud y pagar la tarifa correspondiente."
       ]
     },
     {
@@ -98,9 +90,9 @@
         "¿Qué requisitos debo cumplir para obtener la cédula?"
       ],
       "responses": [
-        "Para obtener la cédula de identidad, necesitas: 1. Documento de nacimiento, 2. Foto reciente, 3. Comprobante de domicilio.",
-        "Los requisitos para la cédula de identidad son: 1. Acta de nacimiento, 2. Foto reciente y 3. Comprobante de domicilio.",
-        "Necesitas tu acta de nacimiento, una foto actual y una factura reciente con tu dirección para tramitar la cédula.",
+        "Para obtener la cédula de identidad, necesitas: 1. Acta de nacimiento original, 2. Foto reciente tamaño carnet, 3. Comprobante de domicilio (si es tu primer trámite o si has cambiado de dirección).",
+        "Los requisitos para la cédula de identidad son: 1. Acta de nacimiento, 2. Foto reciente tamaño carnet, 3. Comprobante de domicilio.",
+        "Necesitas presentar tu acta de nacimiento original, una foto reciente y un comprobante de domicilio para tramitar la cédula.",
         "Para realizar el trámite de cédula, debes presentar tu acta de nacimiento, una fotografía reciente y tu comprobante de domicilio."
       ]
     },
@@ -127,9 +119,9 @@
         "¿Qué requisitos debo cumplir para obtener la licencia?"
       ],
       "responses": [
-        "Para obtener tu licencia de conducir, necesitas: 1. Documento de identidad, 2. Examen médico, 3. Comprobante de domicilio, 4. Examen teórico y práctico.",
-        "Los requisitos para la licencia de conducir son: 1. Cédula de identidad, 2. Examen médico y 3. Comprobante de domicilio.",
-        "Para tramitar la licencia, necesitas presentar tu cédula, un examen médico y realizar un examen práctico de manejo.",
+        "Para obtener tu licencia de conducir, necesitas: 1. Cédula de ciudadanía, 2. Examen médico, 3. Comprobante de domicilio, 4. Aprobar el examen teórico y práctico de manejo.",
+        "Los requisitos para la licencia de conducir son: 1. Cédula de identidad, 2. Examen médico, 3. Comprobante de domicilio, 4. Examen teórico y práctico.",
+        "Para tramitar la licencia de conducir, debes presentar tu cédula de ciudadanía, realizar un examen médico y aprobar los exámenes teórico y práctico de manejo.",
         "Para realizar el trámite de licencia de conducir, debes presentar tu documento de identidad, un examen médico y aprobar el examen de manejo."
       ]
     },
@@ -158,7 +150,7 @@
         "¿Cuáles son los trámites disponibles en el SRI?"
       ],
       "responses": [
-        "Para registrarte en el SRI, necesitas: 1. Documento de identidad, 2. Comprobante de domicilio, 3. Información sobre tus actividades económicas.",
+        "Para registrarte en el SRI, necesitas: 1. Cédula de ciudadanía, 2. Comprobante de domicilio, 3. Información sobre tus actividades económicas.",
         "Los requisitos para obtener el RUC son: 1. Cédula de identidad, 2. Dirección fiscal, 3. Actividad económica que vas a realizar.",
         "Para realizar la declaración de impuestos, necesitas tu RUC, información sobre tus ingresos, y tus gastos deducibles.",
         "Los trámites en el SRI incluyen: registro de RUC, declaración de impuestos, emisión de facturas, y otros relacionados con el cumplimiento fiscal."
