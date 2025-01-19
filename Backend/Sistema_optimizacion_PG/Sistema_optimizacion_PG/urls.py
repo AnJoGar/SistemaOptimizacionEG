@@ -16,7 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from Modulo2.views import ChatbotAPI
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('ChatbotAPI/', ChatbotAPI.as_view(), name='ChatbotAPI'),
 ]
