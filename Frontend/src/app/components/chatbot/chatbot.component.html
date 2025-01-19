@@ -1,0 +1,16 @@
+<div class="content_bot">
+  <img src="../../../assets/BOT.png" alt="Chatbot">
+
+  <div class="chat-container">
+    <div class="chat-box">
+      <!-- Mostrar los mensajes -->
+      <div *ngFor="let message of messages" [ngClass]="message.sender">
+        <p>{{ message.text }}</p>
+      </div>
+    </div>
+    
+    <!-- Campo para ingresar el mensaje -->
+    <input [(ngModel)]="userMessage" (keydown.enter)="sendMessage()" placeholder="Escribe un mensaje..." />
+    <button (click)="sendMessage()">Enviar</button>
+  </div>
+</div>

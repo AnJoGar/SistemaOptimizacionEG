@@ -1,0 +1,73 @@
+<div class="form_content">
+  <form [formGroup]="tramiteForm" (ngSubmit)="onSubmit()">
+      <div class="element">
+        <label for="tipoTramite">Tipo de Trámite:</label>
+        <select id="tipoTramite" formControlName="tipoTramite">
+          <option value="">Seleccione...</option>
+          <option value="visa">Solicitud de Visa</option>
+          <option value="pasaporte">Solicitud de Pasaporte</option>
+          <option value="cedula">Solicitud de Cédula</option>
+        </select>
+      </div>
+    
+      <div class="element">
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" type="text" formControlName="nombre" />
+        <div *ngIf="tramiteForm.get('nombre')?.invalid && tramiteForm.get('nombre')?.touched">
+          El nombre es obligatorio y debe tener menos de 100 caracteres.
+        </div>
+      </div>
+    
+      <div class="element">
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input id="fechaNacimiento" type="date" formControlName="fechaNacimiento" />
+      </div>
+    
+      <div *ngIf="tramiteForm.get('tipoTramite')?.value === 'visa'" class="element">
+        <label for="paisOrigen">País de Origen:</label>
+        <input id="paisOrigen" type="text" formControlName="paisOrigen" />
+    
+        <label for="motivoViaje">Motivo del Viaje:</label>
+        <textarea id="motivoViaje" formControlName="motivoViaje"></textarea>
+    
+        <label for="tipoVisa">Tipo de Visa:</label>
+        <input id="tipoVisa" type="text" formControlName="tipoVisa" />
+    
+        <label for="numeroPasaporte">Número de Pasaporte:</label>
+        <input id="numeroPasaporte" type="text" formControlName="numeroPasaporte" />
+      </div>
+    
+      <div *ngIf="tramiteForm.get('tipoTramite')?.value === 'pasaporte'" class="element">
+        <label for="direccionContacto">Dirección de Contacto:</label>
+        <input id="direccionContacto" type="text" formControlName="direccionContacto" />
+    
+        <label for="nacionalidad">Nacionalidad:</label>
+        <input id="nacionalidad" type="text" formControlName="paisOrigen" />
+      </div>
+    
+      <div *ngIf="tramiteForm.get('tipoTramite')?.value === 'cedula'" class="element">
+        <label for="direccion">Dirección:</label>
+        <input id="direccion" type="text" formControlName="direccionContacto" />
+    
+        <label for="lugarNacimiento">Lugar de Nacimiento:</label>
+        <input id="lugarNacimiento" type="text" formControlName="lugarNacimiento" />
+      </div>
+    
+      <div class="element">
+        <label for="telefonoContacto">Teléfono de Contacto:</label>
+        <input id="telefonoContacto" type="text" formControlName="telefonoContacto" maxlength="10" />
+      </div>
+    
+      <div class="element">
+        <label for="emailContacto">Correo Electrónico:</label>
+        <input id="emailContacto" type="email" formControlName="emailContacto" />
+        <div *ngIf="tramiteForm.get('emailContacto')?.invalid && tramiteForm.get('emailContacto')?.touched">
+          El correo electrónico debe ser válido.
+        </div>
+      </div>
+      
+      <div class="element">
+        <button type="submit" [disabled]="tramiteForm.invalid">Enviar Solicitud</button>
+      </div>
+  </form>
+</div>

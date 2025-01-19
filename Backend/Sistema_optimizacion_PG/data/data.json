@@ -1,0 +1,173 @@
+[
+    {
+      "intent": "bienvenida",
+      "examples": [
+        "Hola",
+        "Buenos días",
+        "Buenas tardes",
+        "Buenas noches",
+        "¿Cómo estás?",
+        "Hola, ¿qué tal?",
+        "Hola, ¿cómo estás?"
+      ],
+      "responses": [
+        "¡Hola! ¿Cómo puedo ayudarte hoy?",
+        "¡Buenos días! ¿En qué puedo asistirte?",
+        "¡Hola! ¿Cómo estás? ¿En qué puedo ayudarte?",
+        "¡Hola! Estoy aquí para ayudarte con tus dudas, ¿cómo te puedo asistir?"
+      ]
+    },
+    {
+      "intent": "requisitos_pasaporte",
+      "examples": [
+        "¿Cuáles son los requisitos para el pasaporte?",
+        "¿Qué documentos necesito para obtener un pasaporte?",
+        "¿Qué papeles necesito para hacer un pasaporte?",
+        "¿Cómo puedo sacar el pasaporte?",
+        "¿Cómo puedo sacar un pasaporte?",
+        "¿Qué requisitos debo cumplir para el pasaporte?",
+        "¿Dónde puedo tramitar el pasaporte?",
+        "¿Qué edad debo tener para pedir un pasaporte?"
+      ],
+      "responses": [
+        "Para obtener un pasaporte, necesitas: 1. Cédula de ciudadanía, 2. Comprobante de pago, 3. Foto reciente tamaño carnet, 4. Si eres menor de 18 años, se requiere autorización de ambos padres o del tutor.",
+        "Los requisitos para el pasaporte incluyen: 1. Cédula de ciudadanía, 2. Comprobante de pago, 3. Foto reciente.",
+        "Para tramitar el pasaporte debes tener tu cédula de ciudadanía vigente y pagar la tarifa correspondiente.",
+        "Si eres menor de edad, también necesitas la autorización de los padres o tutor para realizar el trámite."
+      ]
+    },
+    {
+      "intent": "realizar_tramite_pasaporte",
+      "examples": [
+        "Sí, quiero iniciar mi trámite de pasaporte.",
+        "Sí, redirígeme al formulario para pasaporte.",
+        "Quiero empezar el trámite de pasaporte."
+      ],
+      "responses": [
+        "Perfecto, para iniciar el trámite de pasaporte, por favor completa el formulario en el siguiente enlace: [Formulario de Solicitud de Pasaporte](https://link-a-formulario.com).",
+        "Aquí está el enlace al formulario para que puedas iniciar el trámite de pasaporte: [Formulario de Solicitud de Pasaporte](https://link-a-formulario.com).",
+        "Para proceder con el trámite de pasaporte, completa el formulario aquí: [Formulario de Solicitud de Pasaporte](https://link-a-formulario.com)."
+      ]
+    },
+    {
+      "intent": "requisitos_visa",
+      "examples": [
+        "¿Cuáles son los requisitos para la visa?",
+        "¿Qué documentos necesito para solicitar una visa?",
+        "¿Cómo puedo obtener una visa?",
+        "¿Qué papeles necesito para hacer una visa?",
+        "¿Qué requisitos debo cumplir para obtener la visa?",
+        "¿Dónde puedo tramitar la visa?",
+        "¿Cuál es el procedimiento para solicitar la visa?"
+      ],
+      "responses": [
+        "Para obtener una visa, necesitas presentar: 1. Pasaporte vigente, 2. Comprobante de domicilio, 3. Foto reciente, 4. Formulario de solicitud completado, 5. Pago de tarifa correspondiente.",
+        "Los requisitos para la visa incluyen: 1. Pasaporte vigente, 2. Comprobante de domicilio, 3. Foto reciente, 4. Formulario de solicitud.",
+        "Para tramitar la visa, debes presentar tu pasaporte, comprobante de domicilio y una fotografía reciente.",
+        "Además, necesitarás completar un formulario de solicitud y pagar la tarifa correspondiente."
+      ]
+    },
+    {
+      "intent": "realizar_tramite_visa",
+      "examples": [
+        "Sí, quiero iniciar mi trámite de visa.",
+        "Sí, redirígeme al formulario para la visa.",
+        "Quiero comenzar el trámite para obtener la visa."
+      ],
+      "responses": [
+        "Perfecto, para iniciar el trámite de visa, por favor completa el formulario en el siguiente enlace: [Formulario de Solicitud de Visa](https://link-a-formulario.com).",
+        "Aquí está el enlace al formulario para que puedas iniciar el trámite de visa: [Formulario de Solicitud de Visa](https://link-a-formulario.com).",
+        "Para proceder con el trámite de visa, completa el formulario aquí: [Formulario de Solicitud de Visa](https://link-a-formulario.com)."
+      ]
+    },
+    {
+      "intent": "requisitos_cedula_identidad",
+      "examples": [
+        "¿Cuáles son los requisitos para la cédula de identidad?",
+        "¿Qué documentos necesito para obtener mi cédula?",
+        "¿Qué papeles son necesarios para hacer la cédula?",
+        "¿Cómo puedo solicitar la cédula de identidad?",
+        "¿Qué requisitos debo cumplir para obtener la cédula?"
+      ],
+      "responses": [
+        "Para obtener la cédula de identidad, necesitas: 1. Acta de nacimiento original, 2. Foto reciente tamaño carnet, 3. Comprobante de domicilio (si es tu primer trámite o si has cambiado de dirección).",
+        "Los requisitos para la cédula de identidad son: 1. Acta de nacimiento, 2. Foto reciente tamaño carnet, 3. Comprobante de domicilio.",
+        "Necesitas presentar tu acta de nacimiento original, una foto reciente y un comprobante de domicilio para tramitar la cédula.",
+        "Para realizar el trámite de cédula, debes presentar tu acta de nacimiento, una fotografía reciente y tu comprobante de domicilio."
+      ]
+    },
+    {
+      "intent": "realizar_tramite_cedula_identidad",
+      "examples": [
+        "Sí, quiero iniciar mi trámite de cédula de identidad.",
+        "Sí, redirígeme al formulario para la cédula.",
+        "Quiero empezar el trámite de la cédula de identidad."
+      ],
+      "responses": [
+        "Perfecto, para iniciar el trámite de cédula de identidad, por favor completa el formulario en el siguiente enlace: [Formulario de Solicitud de Cédula](https://link-a-formulario.com).",
+        "Aquí está el enlace al formulario para que puedas iniciar el trámite de cédula de identidad: [Formulario de Solicitud de Cédula](https://link-a-formulario.com).",
+        "Para proceder con el trámite de cédula de identidad, completa el formulario aquí: [Formulario de Solicitud de Cédula](https://link-a-formulario.com)."
+      ]
+    },
+    {
+      "intent": "requisitos_licencia_conducir",
+      "examples": [
+        "¿Cuáles son los requisitos para la licencia de conducir?",
+        "¿Qué documentos necesito para obtener mi licencia?",
+        "¿Qué papeles son necesarios para sacar la licencia de conducir?",
+        "¿Cómo puedo tramitar mi licencia de conducir?",
+        "¿Qué requisitos debo cumplir para obtener la licencia?"
+      ],
+      "responses": [
+        "Para obtener tu licencia de conducir, necesitas: 1. Cédula de ciudadanía, 2. Examen médico, 3. Comprobante de domicilio, 4. Aprobar el examen teórico y práctico de manejo.",
+        "Los requisitos para la licencia de conducir son: 1. Cédula de identidad, 2. Examen médico, 3. Comprobante de domicilio, 4. Examen teórico y práctico.",
+        "Para tramitar la licencia de conducir, debes presentar tu cédula de ciudadanía, realizar un examen médico y aprobar los exámenes teórico y práctico de manejo.",
+        "Para realizar el trámite de licencia de conducir, debes presentar tu documento de identidad, un examen médico y aprobar el examen de manejo."
+      ]
+    },
+    {
+      "intent": "realizar_tramite_licencia_conducir",
+      "examples": [
+        "Sí, quiero iniciar mi trámite de licencia de conducir.",
+        "Sí, redirígeme al formulario para la licencia de conducir.",
+        "Quiero empezar el trámite de la licencia de conducir."
+      ],
+      "responses": [
+        "Perfecto, para iniciar el trámite de licencia de conducir, por favor completa el formulario en el siguiente enlace: [Formulario de Solicitud de Licencia de Conducir](https://link-a-formulario.com).",
+        "Aquí está el enlace al formulario para que puedas iniciar el trámite de licencia de conducir: [Formulario de Solicitud de Licencia de Conducir](https://link-a-formulario.com).",
+        "Para proceder con el trámite de licencia de conducir, completa el formulario aquí: [Formulario de Solicitud de Licencia de Conducir](https://link-a-formulario.com)."
+      ]
+    },
+    {
+      "intent": "requisitos_sri",
+      "examples": [
+        "¿Cuáles son los requisitos para registrarme en el SRI?",
+        "¿Qué documentos necesito para realizar trámites en el SRI?",
+        "¿Cómo puedo registrar mi RUC?",
+        "¿Cómo puedo declarar mis impuestos en el SRI?",
+        "¿Qué papeles necesito para declarar mis impuestos?",
+        "¿Dónde puedo obtener mi RUC?",
+        "¿Cuáles son los trámites disponibles en el SRI?"
+      ],
+      "responses": [
+        "Para registrarte en el SRI, necesitas: 1. Cédula de ciudadanía, 2. Comprobante de domicilio, 3. Información sobre tus actividades económicas.",
+        "Los requisitos para obtener el RUC son: 1. Cédula de identidad, 2. Dirección fiscal, 3. Actividad económica que vas a realizar.",
+        "Para realizar la declaración de impuestos, necesitas tu RUC, información sobre tus ingresos, y tus gastos deducibles.",
+        "Los trámites en el SRI incluyen: registro de RUC, declaración de impuestos, emisión de facturas, y otros relacionados con el cumplimiento fiscal."
+      ]
+    },
+    {
+      "intent": "realizar_tramite_sri",
+      "examples": [
+        "Sí, quiero registrar mi RUC.",
+        "Sí, redirígeme al formulario para registrar mi RUC.",
+        "Quiero comenzar el trámite de declaración de impuestos en el SRI."
+      ],
+      "responses": [
+        "Para registrar tu RUC, por favor completa el formulario en el siguiente enlace: [Formulario de Registro en el SRI](https://link-a-formulario-sri.com).",
+        "Aquí está el enlace al formulario para registrar tu RUC: [Formulario de Registro en el SRI](https://link-a-formulario-sri.com).",
+        "Para proceder con el trámite de registro de RUC, completa el formulario aquí: [Formulario de Registro en el SRI](https://link-a-formulario-sri.com)."
+      ]
+    }
+  ]
+  

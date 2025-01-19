@@ -1,0 +1,8 @@
+<div class="notificaciones-container">
+    <div *ngFor="let notificacion of notificaciones; let i = index" 
+         [ngClass]="notificacion.type" class="notificacion">
+      <p>{{ notificacion.message }}</p>
+      <button (click)="eliminarNotificacion(i)">X</button>
+    </div>
+  </div>
+  
