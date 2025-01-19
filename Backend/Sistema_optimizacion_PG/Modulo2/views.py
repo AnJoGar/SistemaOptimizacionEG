@@ -11,7 +11,7 @@ from sklearn.preprocessing import LabelEncoder
 class ChatbotAPI(APIView):
     def post(self, request, *args, **kwargs):
         # Obtener el input del usuario del cuerpo de la solicitud
-        user_input = request.data.get("user_input", "")
+        user_input = request.data.get("mensaje", "")
         
         if not user_input:
             return Response({"error": "No input provided."}, status=status.HTTP_400_BAD_REQUEST)
