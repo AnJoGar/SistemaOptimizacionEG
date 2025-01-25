@@ -1,4 +1,7 @@
 <div class="form_content">
+  <div *ngIf="mensajeExito" class="mensaje-exito">
+    <p>Trámite creado correctamente</p>
+  </div>
   <form [formGroup]="tramiteForm" (ngSubmit)="onSubmit()">
       <div class="element">
         <label for="tipoTramite">Tipo de Trámite:</label>
@@ -20,7 +23,7 @@
     
       <div class="element">
         <label for="fechaNacimiento">Fecha de Nacimiento:</label>
-        <input id="fechaNacimiento" type="date" formControlName="fechaNacimiento" />
+        <input id="fechaNacimiento" type="date" formControlName="fecha_nacimiento" />
       </div>
     
       <div *ngIf="tramiteForm.get('tipoTramite')?.value === 'visa'" class="element">
@@ -39,7 +42,7 @@
     
       <div *ngIf="tramiteForm.get('tipoTramite')?.value === 'pasaporte'" class="element">
         <label for="direccionContacto">Dirección de Contacto:</label>
-        <input id="direccionContacto" type="text" formControlName="direccionContacto" />
+        <input id="direccionContacto" type="text" formControlName="direccion" />
     
         <label for="nacionalidad">Nacionalidad:</label>
         <input id="nacionalidad" type="text" formControlName="paisOrigen" />
@@ -47,20 +50,20 @@
     
       <div *ngIf="tramiteForm.get('tipoTramite')?.value === 'cedula'" class="element">
         <label for="direccion">Dirección:</label>
-        <input id="direccion" type="text" formControlName="direccionContacto" />
+        <input id="direccion" type="text" formControlName="direccion" />
     
         <label for="lugarNacimiento">Lugar de Nacimiento:</label>
-        <input id="lugarNacimiento" type="text" formControlName="lugarNacimiento" />
+        <input id="lugarNacimiento" type="text" formControlName="lugar_nacimiento" />
       </div>
     
       <div class="element">
         <label for="telefonoContacto">Teléfono de Contacto:</label>
-        <input id="telefonoContacto" type="text" formControlName="telefonoContacto" maxlength="10" />
+        <input id="telefonoContacto" type="text" formControlName="telefono_contacto" maxlength="10" />
       </div>
     
       <div class="element">
         <label for="emailContacto">Correo Electrónico:</label>
-        <input id="emailContacto" type="email" formControlName="emailContacto" />
+        <input id="emailContacto" type="email" formControlName="email_contacto" />
         <div *ngIf="tramiteForm.get('emailContacto')?.invalid && tramiteForm.get('emailContacto')?.touched">
           El correo electrónico debe ser válido.
         </div>
@@ -70,4 +73,6 @@
         <button type="submit" [disabled]="tramiteForm.invalid">Enviar Solicitud</button>
       </div>
   </form>
+
+
 </div>

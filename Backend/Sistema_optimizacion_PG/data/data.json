@@ -20,26 +20,27 @@
     {
       "intent": "requisitos_pasaporte",
       "examples": [
-        "¿Cuáles son los requisitos para el pasaporte?",
-        "¿Qué documentos necesito para obtener un pasaporte?",
-        "¿Qué papeles necesito para hacer un pasaporte?",
-        "¿Cómo puedo sacar el pasaporte?",
-        "¿Cómo puedo sacar un pasaporte?",
-        "¿Qué requisitos debo cumplir para el pasaporte?",
-        "¿Dónde puedo tramitar el pasaporte?",
-        "¿Qué edad debo tener para pedir un pasaporte?",
-        "¿Qué documentos son necesarios para tramitar el pasaporte?",
-        "¿Qué necesito para hacer el trámite de pasaporte?",
-        "¿Cuánto cuesta el pasaporte?",
-        "¿Cuánto tiempo tarda el trámite para obtener el pasaporte?",
-        "¿Puedo solicitar el pasaporte si no tengo cédula?",
-        "¿Es necesario tener una foto reciente para el pasaporte?",
-        "¿Dónde se tramita el pasaporte?",
-        "¿Hay requisitos especiales para obtener el pasaporte si soy extranjero?",
-        "¿El pasaporte es válido para viajar a todos los países?",
-        "¿Puedo hacer el trámite del pasaporte por internet?",
-        "¿Qué hago si pierdo mi pasaporte?",
-        "¿Puedo sacar el pasaporte en cualquier ciudad?"
+"como obtengo pasaporte",
+  "que documentos necesito para obtener un pasaporte",
+  "que papeles necesito para hacer un pasaporte",
+  "como puedo sacar el pasaporte",
+  "como puedo sacar un pasaporte",
+  "que requisitos debo cumplir para el pasaporte",
+  "donde puedo tramitar el pasaporte",
+  "que edad debo tener para pedir un pasaporte",
+  "que documentos necesito para el pasaporte",
+  "que necesito para hacer el tramite de pasaporte",
+  "cuanto cuesta el pasaporte",
+  "cuanto tiempo tarda el tramite para obtener el pasaporte",
+  "puedo solicitar el pasaporte si no tengo cedula",
+  "es necesario tener una foto reciente para el pasaporte",
+  "donde se tramita el pasaporte",
+  "hay requisitos especiales para obtener el pasaporte si soy extranjero",
+  "el pasaporte es valido para viajar a todos los paises",
+  "puedo hacer el tramite del pasaporte por internet",
+  "que hago si pierdo mi pasaporte",
+  "puedo sacar el pasaporte en cualquier ciudad"
+     
       ],
       "responses": [
         "Para obtener un pasaporte, necesitas: 1. Cédula de ciudadanía, 2. Comprobante de pago, 3. Foto reciente tamaño carnet, 4. Si eres menor de 18 años, se requiere autorización de ambos padres o del tutor legal.",
@@ -62,6 +63,7 @@
     {
       "intent": "realizar_tramite_pasaporte",
       "examples": [
+        "quiro sacar el pasaporte",
         "Quiero comenzar el trámite para obtener mi pasaporte.",
         "¿Cómo puedo iniciar el proceso para sacar mi pasaporte?",
         "Deseo iniciar el trámite para obtener el pasaporte.",
@@ -78,51 +80,55 @@
         "Necesito iniciar el trámite de mi pasaporte, ¿qué pasos debo seguir?",
         "Quiero saber cómo hacer el trámite para obtener el pasaporte, ¿puedes ayudarme?",
         "¿Puedo iniciar el trámite de pasaporte en línea?",
-        "¿Qué necesito para comenzar el trámite del pasaporte?"
+        "¿Qué necesito para comenzar el trámite del pasaporte?",
+            "quiero hacer el tramite para el pasaporte"
       ],
       "responses": [
-        "Perfecto, para iniciar el trámite de pasaporte, por favor completa el formulario en el siguiente enlace: [Formulario de Solicitud de Pasaporte](https://link-a-formulario.com).",
-        "Para comenzar con el trámite de pasaporte, solo debes llenar el formulario en este enlace: [Formulario de Solicitud de Pasaporte](https://link-a-formulario.com).",
-        "Para iniciar el trámite de tu pasaporte, ingresa los datos requeridos en el siguiente formulario: [Formulario de Solicitud de Pasaporte](https://link-a-formulario.com).",
-        "Haz clic en el siguiente enlace para completar el formulario y comenzar el trámite de pasaporte: [Formulario de Solicitud de Pasaporte](https://link-a-formulario.com).",
-        "Para proceder con el trámite de pasaporte, completa el formulario aquí: [Formulario de Solicitud de Pasaporte](https://link-a-formulario.com).",
-        "Inicia el trámite de tu pasaporte completando el formulario en este enlace: [Formulario de Solicitud de Pasaporte](https://link-a-formulario.com).",
-        "Ya puedes comenzar el trámite de pasaporte. Por favor, completa el formulario en el siguiente enlace: [Formulario de Solicitud de Pasaporte](https://link-a-formulario.com).",
-        "Para comenzar el trámite de pasaporte, solo tienes que llenar el formulario en este enlace: [Formulario de Solicitud de Pasaporte](https://link-a-formulario.com).",
-        "Te invitamos a completar el formulario para iniciar tu trámite de pasaporte: [Formulario de Solicitud de Pasaporte](https://link-a-formulario.com).",
-        "Para iniciar el trámite de tu pasaporte, ingresa tus datos en el siguiente formulario: [Formulario de Solicitud de Pasaporte](https://link-a-formulario.com).",
-        "Recuerda que para iniciar el trámite, debes llenar el formulario en el siguiente enlace: [Formulario de Solicitud de Pasaporte](https://link-a-formulario.com).",
-        "Para empezar con el trámite de pasaporte, llena el formulario en el siguiente enlace: [Formulario de Solicitud de Pasaporte](https://link-a-formulario.com).",
-        "Al completar el formulario en el siguiente enlace, podrás iniciar tu trámite de pasaporte: [Formulario de Solicitud de Pasaporte](https://link-a-formulario.com).",
-        "Si deseas continuar con el trámite, por favor ingresa al formulario aquí: [Formulario de Solicitud de Pasaporte](https://link-a-formulario.com).",
-        "Completa el formulario disponible en este enlace para dar inicio a tu trámite de pasaporte: [Formulario de Solicitud de Pasaporte](https://link-a-formulario.com).",
-        "Inicia tu trámite de pasaporte ahora llenando el formulario disponible aquí: [Formulario de Solicitud de Pasaporte](https://link-a-formulario.com)."
+        "Perfecto, para iniciar el trámite de pasaporte, por favor completa el formulario en el siguiente enlace: [Formulario de Solicitud de Pasaporte](http://localhost:4200/registra-consulta).",
+        "Para comenzar con el trámite de pasaporte, solo debes llenar el formulario en este enlace: [Formulario de Solicitud de Pasaporte](http://localhost:4200/registra-consulta).",
+        "Para iniciar el trámite de tu pasaporte, ingresa los datos requeridos en el siguiente formulario: [Formulario de Solicitud de Pasaporte](http://localhost:4200/registra-consulta).",
+        "Haz clic en el siguiente enlace para completar el formulario y comenzar el trámite de pasaporte: [Formulario de Solicitud de Pasaporte](http://localhost:4200/registra-consulta).",
+        "Para proceder con el trámite de pasaporte, completa el formulario aquí: [Formulario de Solicitud de Pasaporte](http://localhost:4200/registra-consulta).",
+        "Inicia el trámite de tu pasaporte completando el formulario en este enlace: [Formulario de Solicitud de Pasaporte](http://localhost:4200/registra-consulta).",
+        "Ya puedes comenzar el trámite de pasaporte. Por favor, completa el formulario en el siguiente enlace: [Formulario de Solicitud de Pasaporte](http://localhost:4200/registra-consulta).",
+        "Para comenzar el trámite de pasaporte, solo tienes que llenar el formulario en este enlace: [Formulario de Solicitud de Pasaporte](http://localhost:4200/registra-consulta).",
+        "Te invitamos a completar el formulario para iniciar tu trámite de pasaporte: [Formulario de Solicitud de Pasaporte](http://localhost:4200/registra-consulta).",
+        "Para iniciar el trámite de tu pasaporte, ingresa tus datos en el siguiente formulario: [Formulario de Solicitud de Pasaporte](http://localhost:4200/registra-consulta).",
+        "Recuerda que para iniciar el trámite, debes llenar el formulario en el siguiente enlace: [Formulario de Solicitud de Pasaporte](http://localhost:4200/registra-consulta).",
+        "Para empezar con el trámite de pasaporte, llena el formulario en el siguiente enlace: [Formulario de Solicitud de Pasaporte](http://localhost:4200/registra-consulta).",
+        "Al completar el formulario en el siguiente enlace, podrás iniciar tu trámite de pasaporte: [Formulario de Solicitud de Pasaporte](http://localhost:4200/registra-consulta).",
+        "Si deseas continuar con el trámite, por favor ingresa al formulario aquí: [Formulario de Solicitud de Pasaporte](http://localhost:4200/registra-consulta).",
+        "Completa el formulario disponible en este enlace para dar inicio a tu trámite de pasaporte: [Formulario de Solicitud de Pasaporte](http://localhost:4200/registra-consulta).",
+        "Inicia tu trámite de pasaporte ahora llenando el formulario disponible aquí: [Formulario de Solicitud de Pasaporte](http://localhost:4200/registra-consulta).",
+          "Inicia tu trámite de pasaporte ahora llenando el formulario disponible aquí: [Formulario de Solicitud de Pasaporte](http://localhost:4200/registra-consulta)."
+       , "Perfecto, para iniciar el trámite de pasaporte, por favor completa el formulario en el siguiente enlace: [Formulario de Solicitud de Pasaporte](http://localhost:4200/registra-consulta)."
       ]
-    },
+      },
     
     {
       "intent": "requisitos_visa",
       "examples": [
-        "¿Cuáles son los requisitos para solicitar una visa?",
-        "¿Qué documentos necesito para obtener una visa?",
-        "¿Cómo puedo obtener una visa?",
-        "¿Qué papeles necesito para hacer una visa?",
-        "¿Cuáles son los requisitos para tramitar una visa?",
-        "¿Qué documentos son necesarios para solicitar una visa?",
-        "¿Cómo puedo tramitar mi visa?",
-        "¿Qué tengo que hacer para obtener la visa?",
-        "¿Qué documentos debo presentar para la visa?",
-        "¿Cómo iniciar el proceso de solicitud de visa?",
-        "¿Qué se necesita para obtener la visa?",
-        "¿Cuál es el procedimiento para solicitar una visa?",
-        "¿Puedo hacer todo el trámite de la visa en línea?",
-        "¿Dónde puedo tramitar la visa?",
-        "¿Qué requisitos debo cumplir para obtener la visa?",
-        "¿Necesito una carta de invitación para solicitar la visa?",
-        "¿Cómo puedo saber si cumplo con los requisitos para la visa?",
-        "¿Cuánto tiempo tarda el proceso de solicitud de visa?",
-        "¿Qué documentos adicionales se requieren si soy menor de edad?",
-        "¿Cuáles son los requisitos si soy estudiante?"
+        "como obtengo la visa",
+        "que documentos necesito para obtener una visa",
+        "como puedo obtener una visa",
+        "que papeles necesito para hacer una visa",
+        "cuales son los requisitos para tramitar una visa",
+        "que documentos son necesarios para solicitar una visa",
+        "como puedo tramitar mi visa",
+        "que tengo que hacer para obtener la visa",
+        "que documentos necesito para la visa",
+        "como iniciar el proceso de solicitud de visa",
+        "que se necesita para obtener la visa",
+        "cual es el procedimiento para solicitar una visa",
+        "puedo hacer todo el tramite de la visa en linea",
+        "donde puedo tramitar la visa",
+        "que requisitos debo cumplir para obtener la visa",
+        "necesito una carta de invitacion para solicitar la visa",
+        "como puedo saber si cumplo con los requisitos para la visa",
+        "cuanto tiempo tarda el proceso de solicitud de visa",
+        "que documentos adicionales se requieren si soy menor de edad",
+        "cuales son los requisitos si soy estudiante"
+
       ],
       "responses": [
         "Para solicitar una visa, necesitas los siguientes documentos: 1. Pasaporte vigente con al menos 6 meses de validez, 2. Comprobante de domicilio reciente, 3. Foto reciente tamaño carnet, 4. Formulario de solicitud de visa completado, 5. Pago de la tarifa correspondiente, que varía según el tipo de visa.",
@@ -158,7 +164,9 @@
         "¿Dónde puedo comenzar el trámite de visa?",
         "Estoy listo para iniciar el trámite de mi visa, ¿qué tengo que hacer?",
         "¿Cómo puedo completar mi solicitud para la visa?",
-        "¿Cuál es el primer paso para tramitar mi visa?"
+        "¿Cuál es el primer paso para tramitar mi visa?",
+         "quiero hacer la solicitud de visa"
+          
       ],
       "responses": [
         "Perfecto, para iniciar el trámite de visa, por favor completa el formulario en el siguiente enlace: [Formulario de Solicitud de Visa](http://localhost:4200/registra-consulta). Asegúrate de tener todos los documentos requeridos antes de empezar.",
@@ -171,32 +179,33 @@
         "Te proporcionamos el enlace al formulario para que puedas empezar con tu solicitud de visa: [Formulario de Solicitud de Visa](http://localhost:4200/registra-consulta). Recuerda que es importante tener tu pasaporte vigente y otros documentos necesarios listos antes de completar el formulario.",
         "Para iniciar el trámite de visa, haz clic en el siguiente enlace y completa el formulario: [Formulario de Solicitud de Visa](http://localhost:4200/registra-consulta). Después de completarlo, podrás seguir las instrucciones adicionales que te enviarán para pagar la tarifa y enviar los documentos necesarios.",
         "Inicia tu solicitud de visa llenando el formulario en este enlace: [Formulario de Solicitud de Visa](http://localhost:4200/registra-consulta). Asegúrate de incluir toda la información requerida y los documentos adicionales que puedan ser necesarios, según el tipo de visa que solicites."
+  ,"Por favor, completa el formulario aquí para comenzar con el proceso de obtención de tu cédula de identidad: [Formulario de Solicitud de visa](http://localhost:4200/registra-consulta)."
       ]
     }
     ,
     {
       "intent": "requisitos_cedula_identidad",
       "examples": [
-        "¿Cuáles son los requisitos para la cédula de identidad?",
-        "¿Qué documentos necesito para obtener mi cédula?",
-        "¿Qué papeles son necesarios para hacer la cédula?",
-        "¿Cómo puedo solicitar la cédula de identidad?",
-        "¿Qué requisitos debo cumplir para obtener la cédula?",
-        "¿Qué pasa si se me pierde la cédula?",
-        "¿Puedo realizar el trámite si soy extranjero?",
-        "¿Cuánto tiempo tarda el trámite de la cédula?",
-        "¿Puedo hacer el trámite online?",
-        "¿Es posible renovar la cédula de identidad?",
-        "¿Necesito presentar algún documento adicional si soy menor de edad?",
-        "¿Dónde se realiza el trámite de la cédula?",
-        "¿Puedo hacer el trámite en cualquier ciudad del país?",
-        "¿El comprobante de domicilio tiene que ser reciente?",
-        "¿Cuánto cuesta el trámite de la cédula de identidad?",
-        "¿Puedo sacar mi cédula si estoy en el extranjero?",
-        "¿Cuánto tiempo de validez tiene la cédula de identidad?",
-        "¿Puedo hacer el trámite si tengo alguna discapacidad?",
-        "¿Se necesita una cita previa para tramitar la cédula?",
-        "¿Qué hacer si mi cédula está dañada o ilegible?"
+        "como obtengo la cedula",
+        "que documentos necesito para obtener la cedula",
+        "que papeles son necesarios para hacer la cedula",
+        "como puedo solicitar la cedula de identidad",
+        "que requisitos debo cumplir para obtener la cedula",
+        "que pasa si se me pierde la cedula",
+        "puedo realizar el tramite si soy extranjero",
+        "cuanto tiempo tarda el tramite de la cedula",
+        "puedo hacer el tramite online",
+        "es posible renovar la cedula de identidad",
+        "necesito presentar algun documento adicional si soy menor de edad",
+        "donde se realiza el tramite de la cedula",
+        "puedo hacer el tramite en cualquier ciudad del pais",
+        "el comprobante de domicilio tiene que ser reciente",
+        "cuanto cuesta el tramite de la cedula de identidad",
+        "puedo sacar mi cedula si estoy en el extranjero",
+        "cuanto tiempo de validez tiene la cedula de identidad",
+        "puedo hacer el tramite si tengo alguna discapacidad",
+        "se necesita una cita previa para tramitar la cedula",
+        "que hacer si mi cedula esta dañada o ilegible"
       ],
       "responses": [
         "Para obtener la cédula de identidad, necesitas: 1. Acta de nacimiento original, 2. Foto reciente tamaño carnet (con fondo blanco), 3. Comprobante de domicilio (si es tu primer trámite o si has cambiado de dirección). Además, si eres menor de edad, tus padres o representantes legales deberán autorizar el trámite.",
@@ -232,7 +241,11 @@
     "¿Cómo inicio el trámite para obtener mi cédula de identidad?",
     "Estoy listo para comenzar el trámite de la cédula, ¿qué hago ahora?",
     "¿Dónde puedo llenar el formulario para el trámite de la cédula?",
-    "Me gustaría realizar el trámite para obtener mi cédula de identidad."
+    "Me gustaría realizar el trámite para obtener mi cédula de identidad.",
+    "quiero hacer la solicitud para sacar la cedula",
+    "quiero hacer la solicitud para la cedula",
+    "quiero hacer el tramite para la cedula",
+      "quiero sacar la cedula"
   ],
   "responses": [
     "Perfecto, para iniciar el trámite de cédula de identidad, por favor completa el formulario en el siguiente enlace: [Formulario de Solicitud de Cédula](http://localhost:4200/registra-consulta).",
@@ -244,6 +257,7 @@
     "Inicia tu trámite de cédula de identidad completando el formulario en este enlace: [Formulario de Solicitud de Cédula](http://localhost:4200/registra-consulta).",
     "Haz clic en el siguiente enlace para llenar el formulario y dar inicio a tu trámite de cédula: [Formulario de Solicitud de Cédula](http://localhost:4200/registra-consulta).",
     "Por favor, completa el formulario aquí para comenzar con el proceso de obtención de tu cédula de identidad: [Formulario de Solicitud de Cédula](http://localhost:4200/registra-consulta)."
+  , "Por favor, completa el formulario aquí para comenzar con el proceso de obtención de tu cédula de identidad: [Formulario de Solicitud de Cédula](http://localhost:4200/registra-consulta)."
   ]
 }
 ,

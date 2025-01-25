@@ -8,8 +8,9 @@ import { NotificationComponent } from './components/notification/notification.co
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'chatbot', component: ChatbotComponent },
-  { path: 'tramite-form', component: FormularioTramiteComponent },
-  { path: 'notification', component: NotificationComponent }
+  { path: 'registra-consulta', component: FormularioTramiteComponent },
+  { path: 'notificaciones', component: NotificationComponent },
+
 ];
 
 @NgModule({

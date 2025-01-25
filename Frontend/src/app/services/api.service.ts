@@ -15,10 +15,10 @@ export class ApiService {
   }
 
   submitTramite(data: any): Observable<any> {
-    return this.http.post(`${this.apiUrl}/tramites`, data);
+    return this.http.post(`${this.apiUrl}/tramite`, data);
   }
 
   getTramiteStatus(tramiteId: string): Observable<any> {
-    return this.http.get(`${this.apiUrl}/tramites/${tramiteId}`);
+    return this.http.get(`${this.apiUrl}/tramite/${tramiteId}`);
   }
 }

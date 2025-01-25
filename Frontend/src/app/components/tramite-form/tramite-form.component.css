@@ -46,3 +46,22 @@ form .element button{
     color: #ffffff;
     font-weight: 600;
 }
+.mensaje-exito {
+    position: fixed; /* Hace que el mensaje se quede fijo en la pantalla */
+    top: 10px; /* Distancia desde el top de la pantalla */
+    left: 50%; /* Centrado horizontal */
+    transform: translateX(-50%); /* Asegura que esté completamente centrado */
+    background-color: #4caf50; /* Color de fondo verde */
+    color: white; /* Texto blanco */
+    padding: 15px; /* Espaciado */
+    border-radius: 5px; /* Bordes redondeados */
+    font-weight: bold; /* Texto en negrita */
+    z-index: 9999; /* Se asegura de que el mensaje esté por encima de otros elementos */
+    opacity: 1; /* Inicialmente visible */
+    transition: opacity 0.5s ease-out; /* Desvanecer el mensaje */
+  }
+  
+  .mensaje-exito.hidden {
+    opacity: 0; /* Hace que el mensaje se desvanezca */
+  }
+  
